@@ -1,0 +1,22 @@
+  <h1 id="tableLabel">Messages</h1>
+
+  <p *ngIf="!messages"><em>Loading...</em></p>
+
+  <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="messages">
+    <thead>
+      <tr>
+        <th>From</th>
+        <th>To</th>
+        <th>Status</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let message of messages">
+        <td>{{ message.from }}</td>
+        <td>{{ message.to }}</td>
+        <td>{{ message.status }}</td>
+        <td><a [routerLink]="['/details',message.id]">Details</a></td>
+      </tr>
+    </tbody>
+  </table>

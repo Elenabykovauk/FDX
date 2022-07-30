@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FDX.DataAccess", "..\FDX.Application\FDX.DataAccess.csproj", "{835CCBFA-3596-4507-92E8-A0C1BD8E3518}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FDX.Services", "..\FDX.Infrastracture\FDX.Services.csproj", "{04E89C1A-84EC-4308-B7F1-CC073425BA2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FDX.API", "FDX.API.csproj", "{5B6667FF-0F7A-4D8D-A72C-260F564DD459}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Website", "..\Website\Website.csproj", "{9CB353CC-1989-403F-9200-663ED22AA5F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MQ", "..\MQ\MQ.csproj", "{DE5A58E0-F196-4B59-B240-EFCA3C9C4E41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageWorker", "..\MessageWorker\MessageWorker.csproj", "{CA949805-939F-4754-9F83-DB8728F3E597}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDX.CommonObjects", "..\FDX.CommonObjects\FDX.CommonObjects.csproj", "{7F8E9056-F79D-47ED-9D53-C8D07F227A9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{835CCBFA-3596-4507-92E8-A0C1BD8E3518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{835CCBFA-3596-4507-92E8-A0C1BD8E3518}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{835CCBFA-3596-4507-92E8-A0C1BD8E3518}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{835CCBFA-3596-4507-92E8-A0C1BD8E3518}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04E89C1A-84EC-4308-B7F1-CC073425BA2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04E89C1A-84EC-4308-B7F1-CC073425BA2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04E89C1A-84EC-4308-B7F1-CC073425BA2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04E89C1A-84EC-4308-B7F1-CC073425BA2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6667FF-0F7A-4D8D-A72C-260F564DD459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6667FF-0F7A-4D8D-A72C-260F564DD459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6667FF-0F7A-4D8D-A72C-260F564DD459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6667FF-0F7A-4D8D-A72C-260F564DD459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CB353CC-1989-403F-9200-663ED22AA5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CB353CC-1989-403F-9200-663ED22AA5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CB353CC-1989-403F-9200-663ED22AA5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CB353CC-1989-403F-9200-663ED22AA5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5A58E0-F196-4B59-B240-EFCA3C9C4E41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5A58E0-F196-4B59-B240-EFCA3C9C4E41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5A58E0-F196-4B59-B240-EFCA3C9C4E41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5A58E0-F196-4B59-B240-EFCA3C9C4E41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA949805-939F-4754-9F83-DB8728F3E597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA949805-939F-4754-9F83-DB8728F3E597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA949805-939F-4754-9F83-DB8728F3E597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA949805-939F-4754-9F83-DB8728F3E597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8E9056-F79D-47ED-9D53-C8D07F227A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8E9056-F79D-47ED-9D53-C8D07F227A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8E9056-F79D-47ED-9D53-C8D07F227A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8E9056-F79D-47ED-9D53-C8D07F227A9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77282FAA-6679-4F68-955C-C7BEBEA7E358}
+	EndGlobalSection
+EndGlobal
